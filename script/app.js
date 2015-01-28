@@ -1,10 +1,10 @@
 var blog=angular.module('blog',['ngRoute','ngResource','ngSanitize','checklist-model','angularMoment']);
 //###########站点配置
 blog.constant('blogConfig',{
-    "site_name":"xyz2k8's blog",
-    "pagesize":10,//每页显示文章数
+    "site_name":"xyz2k8's Blog",
+    "pagesize":8,//每页显示文章数
     "duoshuo_domain":"xyz2k8",//多说评论，你在多说上申请的二级域名
-    "categories":["SIP","PHP"],
+    "categories":["SIP","PHP","分布式"],
     //数据存储到AVOS中
     //AVOS相关配置,请到https://cn.avoscloud.com/,创建应用
     "AVOS_ID":"7tn9cmwa3mwu640pc0q4okorn2hph925vfwzef62ewo9sk4r",
@@ -364,21 +364,21 @@ blog.controller('modal.edit',function($scope,article,$location,$route){
     }
 });
 
-blog.controller('works',function($scope,$rootScope){
-    $rootScope.nav="works";
-    $rootScope.top_title="开源作品";
+blog.controller('activity',function($scope,$rootScope){
+    $rootScope.nav="activity";
+    $rootScope.top_title="特色活动";
 });
 
 
-blog.controller('video',function($scope,$rootScope){
-    $rootScope.nav="video";
-    $rootScope.top_title="视频教程";
+blog.controller('alubm',function($scope,$rootScope){
+    $rootScope.nav="alubm";
+    $rootScope.top_title="相册";
 });
 
 
 blog.controller('about',function($scope,$rootScope){
     $rootScope.nav="about";
-    $rootScope.top_title="关于我";
+    $rootScope.top_title="关于我们";
 });
 
 
