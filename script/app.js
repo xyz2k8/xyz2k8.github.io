@@ -1,10 +1,10 @@
 var blog=angular.module('blog',['ngRoute','ngResource','ngSanitize','checklist-model','angularMoment']);
 //###########站点配置
 blog.constant('blogConfig',{
-    "site_name":"xyz2k8's Blog",
+    "site_name":"翠屏畅跑营",
     "pagesize":8,//每页显示文章数
     "duoshuo_domain":"xyz2k8",//多说评论，你在多说上申请的二级域名
-    "categories":["SIP","PHP","分布式"],
+    "categories":["长跑","约跑","马拉松"],
     //数据存储到AVOS中
     //AVOS相关配置,请到https://cn.avoscloud.com/,创建应用
     "AVOS_ID":"7tn9cmwa3mwu640pc0q4okorn2hph925vfwzef62ewo9sk4r",
