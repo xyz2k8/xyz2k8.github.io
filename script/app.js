@@ -372,7 +372,7 @@ blog.controller('activity',function($scope,$rootScope){
 
 blog.controller('alubm',function($scope,$rootScope){
     $rootScope.nav="alubm";
-    $rootScope.top_title="相册";
+    $rootScope.top_title="作业&相册";
 });
 
 
