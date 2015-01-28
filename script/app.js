@@ -1,15 +1,16 @@
 var blog=angular.module('blog',['ngRoute','ngResource','ngSanitize','checklist-model','angularMoment']);
 //###########站点配置
 blog.constant('blogConfig',{
-    "site_name":"罗飞的技术分享博客",
+    "site_name":"xyz2k8's blog",
     "pagesize":10,//每页显示文章数
-    "duoshuo_domain":"luofeico",//多说评论，你在多说上申请的二级域名
-    "categories":["PHP","ThinkPHP","服务器","数据库","前端","HTML5","CSS","javascript","jQuery","bootstrap","angularjs","phonegap","go","python","工具","编辑器"],
+    "duoshuo_domain":"xyz2k8",//多说评论，你在多说上申请的二级域名
+    "categories":["SIP","PHP"],
     //数据存储到AVOS中
     //AVOS相关配置,请到https://cn.avoscloud.com/,创建应用
     "AVOS_ID":"7tn9cmwa3mwu640pc0q4okorn2hph925vfwzef62ewo9sk4r",
     "AVOS_KEY":"3klb0fuhzlqg39f36d4nhdimunvarkqxmiuxctrmuxql11dz",
-    //编辑器图片上传到sinastroage中。
+    //编辑器图片上传到sinastroage中。  
+    //后续修改为上传到微盘
     //sinastorage相关配置， 请到http://open.sinastorage.com/ 创建应用
     "sinastorage_bucket":"blogimg",
     "sinastorage_ak":"qzig55nG0OMQg0mkmrDM",
