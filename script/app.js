@@ -12,9 +12,9 @@ blog.constant('blogConfig',{
     //编辑器图片上传到sinastroage中。  
     //后续修改为上传到微盘
     //sinastorage相关配置， 请到http://open.sinastorage.com/ 创建应用
-    "sinastorage_bucket":"blogimg",
-    "sinastorage_ak":"qzig55nG0OMQg0mkmrDM",
-    "sinastorage_sk":"851480070f8b80891e19d1dffd824186c0161b0c",
+    "sinastorage_bucket":"xyz2k8",
+    "sinastorage_ak":"rg611hlEFEzncPS0nCfR",
+    "sinastorage_sk":"108107446bc526d4e1126b4c3efaeccf8bd7704a",
     "header_pics":[
         {name:"图片1",url:"/image/header_pic/1.png"},
         {name:"图片2",url:"/image/header_pic/2.png"},
