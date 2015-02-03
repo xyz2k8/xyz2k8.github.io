@@ -16,12 +16,6 @@
         </label>
     </div>
     <div class="form-group">
-        <input type="text" class="form-control" name="pic" placeholder="输入主题图片，http://" required ng-model="article.pic"  /> 
-        <div class="error" ng-show="articleform.pic.$dirty && articleform.pic.$error.required">
-            主题图片必须填写
-        </div>
-    </div>
-    <div class="form-group">
         <textarea placeholder="文章内容" name="content"  ng-model="article.content"  blog-editor required style="width:400px;height:200px;"></textarea>
         <div ng-show="articleform.content.$dirty && articleform.content.$error.required" class="error">文章内容必填!</div>
     </div>
