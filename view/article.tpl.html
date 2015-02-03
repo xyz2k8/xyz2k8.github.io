@@ -8,9 +8,6 @@
              <span class="glyphicon glyphicon-time"></span> 发表于 {{article.createdAt|amCalendar}}
          </div>
 </div>
-<hr>
-<img src="{{article.pic}}" class="img-responsive">
-<hr>
 <div ng-bind-html="article.content|all|unsafe"></div>
 <div class="action_bar clearfix">
 <a class="btn btn-primary pull-right" ng-show="username" href="javascript:void(0);" ng-click="del($index)"><i class="glyphicon glyphicon-trash"></i>删除</a>
